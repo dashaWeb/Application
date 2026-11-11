@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Application"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+    <DockPanel>
+        <Button DockPanel.Dock="Top" Click="Button_Click">Welcome</Button>
+    </DockPanel>
 </Window>
